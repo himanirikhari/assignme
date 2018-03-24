@@ -4,7 +4,7 @@ import './EquipmentCard.css'
 const EquipmentCard = ({selectEquipment , detail }) =>{
     return (
       <div className="EquipmentCard" onClick={()=>selectEquipment()}>
-       <p className="text-center">Equipment {detail.Equipment}</p>
+       <p className="text-center Equipment_data">Equipment {detail.Equipment}</p>
       </div>
     )
 }
