@@ -37,7 +37,7 @@ class TitleComponent extends Component {
                 <Navbar />
                 <div className="container-fluid" >
                     <div className="row">
-                        <div className="col-xm-1 Sidenav">
+                        <div className="col-lg-1 Sidenav">
                             <Sidenav />
                         </div>
                         <div className="col-lg-11">
